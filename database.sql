@@ -1,0 +1,11 @@
+
+CREATE DATABASE syslogin;
+USE syslogin;
+
+CREATE TABLE user (
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+first_name VARCHAR(40) NOT NULL,
+last_name VARCHAR(40) NOT NULL,
+email VARCHAR(40) NOT NULL,
+password VARCHAR(40) NOT NULL
+);
